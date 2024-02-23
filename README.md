@@ -2,6 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Rename the `.env.sample` to `.env.local` and fill out the variables below
+
+```
+NEXT_PUBLIC_GATEWAY_URL=
+GATEWAY_KEY=
+
+```
+
+- Gateway url should have `https://` before the domain copied from the gateways page > https://app.pinata.cloud/gateway
+- Gateway key is made on the access controls page > https://app.pinata.cloud/developers/gateway-settings
+
 First, run the development server:
 
 ```bash
